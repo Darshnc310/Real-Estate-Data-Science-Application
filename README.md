@@ -2,7 +2,8 @@
 
 This comprehensive project aimed at predicting real estate prices and offering personalized property recommendations. By leveraging data from 99acres.com, the project encompasses data collection, preprocessing, exploratory data analysis, feature engineering, model development, and the implementation of a recommender system.
 
-(1) Project Overview
+(1) Project Overview:
+
     The primary objectives of this project include:
     Data Collection: Utilizing web scraping techniques to gather property listings from 99acres.com, focusing on attributes such as property type, location, size, price, and amenities.
     Data Preprocessing: Cleaning and preparing the collected data by handling missing values, detecting and treating outliers, and transforming data types to ensure consistency and reliability.
@@ -12,9 +13,11 @@ This comprehensive project aimed at predicting real estate prices and offering p
     Recommender System: Implementing a content-based recommender system that suggests properties aligning with user preferences, considering factors like location, budget, and desired amenities.
 
 (2) Data Collection
+
     Data was meticulously collected through web scraping of 99acres.com, focusing on properties located in Gurgaon, India. The scraping process extracted essential details such as property type, location, size, price, and available amenities. The acquired data is       stored in CSV format within the data/ directory for subsequent analysis.
   
 (3) Data Preprocessing
+
     The preprocessing phase involved:
       Handling Missing Values: Employing strategies like imputation or removal to address missing data, ensuring the dataset's completeness.
       Outlier Detection and Treatment: Identifying anomalies within the data and applying appropriate treatments to prevent skewed analyses.
@@ -22,6 +25,7 @@ This comprehensive project aimed at predicting real estate prices and offering p
       Detailed preprocessing steps are documented in the notebooks/data_preprocessing.ipynb notebook.
       
 (4) Exploratory Data Analysis (EDA)
+
     EDA was performed to gain a deep understanding of the data's structure and underlying patterns. Key analyses include:
       Univariate Analysis: Assessing the distribution of individual variables to identify central tendencies and dispersion.
       Bivariate Analysis: Exploring relationships between pairs of variables to detect correlations and potential causations.
@@ -29,6 +33,7 @@ This comprehensive project aimed at predicting real estate prices and offering p
       Visualizations and insights from the EDA are available in the notebooks/eda.ipynb notebook.
 
 (5) Feature Engineering and Selection
+
     To bolster model performance, the project undertook:
       Creation of Interaction Terms: Developing features that capture the interaction between existing variables to model complex relationships.
       Encoding Categorical Variables: Transforming categorical data into numerical formats using techniques like one-hot encoding.
@@ -36,6 +41,7 @@ This comprehensive project aimed at predicting real estate prices and offering p
       The feature engineering process is elaborated in the notebooks/feature_engineering.ipynb notebook.
 
 (6) Model Development
+
     A variety of regression models were developed to predict property prices, including:
       Baseline Models: Establishing simple models to serve as performance benchmarks.
       Advanced Models: Implementing complex algorithms such as Random Forest Regressor, Linear Regressor, and Decision Tree Regressor, followed by hyperparameter tuning to enhance accuracy.
@@ -43,12 +49,14 @@ This comprehensive project aimed at predicting real estate prices and offering p
       The modeling efforts and evaluations are documented in the notebooks/model_development.ipynb notebook.
 
 (7) Recommender System
+
     The project features a content-based recommender system designed to suggest properties that align with user-defined preferences. The system takes into account:
       User Criteria: Filtering properties based on specifications such as preferred location, budget constraints, and desired amenities.
       Similarity Measures: Recommending properties that share characteristics with those the user has previously shown interest in.
       Implementation details are provided in the notebooks/recommender_system.ipynb notebook.
 
 (8) Insights Module
+
     Beyond predictive modeling and recommendations, the project offers an insights module that delivers data-driven analyses, including:
       Market Trends: Evaluating property price fluctuations over time to identify emerging trends.
       Location Analysis: Determining areas that offer optimal value for investment based on current data.
